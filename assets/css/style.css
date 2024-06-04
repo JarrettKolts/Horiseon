@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Changes color of the header background. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Changes display of the header. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Changes color off the 'seo' in Horiseon. */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Changes the font and style of the nav bar located at the top of the webpage. */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Changes the list style type of the unordered list in the nav bar at the top of the webpage. */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* Changes the display of the unordered list in the nav bar at the top of the webpage. */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Changes colors of the links in the webpage. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Changes font size of the paragraph text in the website. */
+p {
+    font-size: 16px;
+}
+
+/* Sources and styles the meeting jpg at the top of the webpage. */
+.meeting {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Affects the size of the right margin. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Affects the size of the left margin. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Affects the style of the content within the webpage. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Changes the styling of the content within the aside section. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Changes style of the "Lead Generation" section. */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Changes style of the "Brand Awareness" section. */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Changes style of the "Cost Management" section. */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Changes the margin of the "Lead Generation" section. */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Changes the margin of the "Brand Awareness" section. */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Changes the margin of the "Cost Management" section. */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Changes the style of the "Lead Generation" icon. */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Changes the style of the "Brand Awareness" icon. */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Changes the style of the "Cost Management" icon. */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Changes the style of the "Search Engine Optimization" section. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Changes the style of the "Online Reputation Management" section. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Changes the style of the "Social Media Marketing" section. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Changes the style of the "Search Engine Optimization" image. */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Changes the style of the "Online Reputation Management" image. */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Changes the style of the "Social Media Marketing" image. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Affects the margin of the "Search Engine Optimization" section. */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Affects the margin of the "Online Reputation Management" section. */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Affects the margin of the "Social Media Marketing" section. */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Affects the style of the footer section. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Affects the font size of the footer section. */
+.footer h2 {
+    font-size: 20px;
+}
